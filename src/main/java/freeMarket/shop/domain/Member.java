@@ -20,7 +20,7 @@ public class Member {
     @OneToMany(mappedBy = "member")
     private List<Order> orders = new ArrayList<>();
 
-    private String username;
+    private String name;
 
     @Embedded
     private Detail detail;
